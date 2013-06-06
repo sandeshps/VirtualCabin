@@ -1,0 +1,25 @@
+﻿/* This is for your body of your page */
+
+html, body
+{
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:Gray;
+    height:100%;
+    min-height:100%;
+    
+}
+
+/* Wraps your content */
+#wrapper{
+ width:100%;
+ min-height:100%;
+ max-width: 980px;
+ text-align:left;
+ margin:0 auto;
+ background: white;
+ border-style:solid;
+    
+}
+

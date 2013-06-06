@@ -1,0 +1,59 @@
+@charset "utf-8";
+#Menu 
+{
+    
+	padding: 0px;
+	width: 608px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#Menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+This will change the main menu color, without any focus 
+#Menu ul li {
+	background-color: #666;
+	float: left;
+	border: 1px solid #CCC;
+	position: relative;
+	list-style-type: none;
+}
+
+
+This will change the text color of main menu head, when we focus the mouse
+#Menu ul li a:hover {
+	color: #0FF;
+	
+	
+}
+
+#Menu ul li:hover ul {
+	visibility: visible;
+}
+#Menu ul li ul li a:hover {
+	background-color: #069;
+}
+
+Text options of main menu head
+#Menu ul li a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: White;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 30px;
+	width: 150px;
+}
+#Menu ul  ul {
+	position: absolute;
+	visibility: hidden;
+	top: 30px;
+}
+#Menu ul li:hover {
+	background-color: #000033;
+}
